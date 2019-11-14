@@ -13,6 +13,7 @@ public class LivesScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        lifeValue = 1;
         life = GetComponent<Text>();
     }
 
