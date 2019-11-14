@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerRotator : MonoBehaviour
 {
@@ -49,6 +50,10 @@ public class PlayerRotator : MonoBehaviour
                 transform.Rotate(0, 0, 90, Space.World);
                 Delay();
              }
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                SceneManager.LoadScene("Main Menu");
+            }
         }
     }
 
