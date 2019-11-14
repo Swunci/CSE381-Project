@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ZWallController : MonoBehaviour
 {
@@ -18,8 +19,14 @@ public class ZWallController : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Destroyer" || collider.gameObject.tag == "Player")
+        if (collider.gameObject.tag == "Destroyer")
         {
+            ScoreScript.scoreValue += 10;
+            Destroy(this.gameObject);
+        }
+        else if (collider.gameObject.tag == "Player")
+        {
+            LivesScript.lifeValue -= 1;
             Destroy(this.gameObject);
         }
     }
