@@ -5,20 +5,20 @@ using UnityEngine;
 public class ZWallController : MonoBehaviour
 {
     public float speed;
-
-    // Update is called once per frame
+    public GameObject target;
+    private Vector3 direction;
+    private void Start()
+    {
+        direction = Vector3.Normalize(target.transform.position - transform.position);
+    }
     void Update()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(direction * speed * Time.deltaTime, Space.World);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        if (collision.gameObject.tag == "Destroyer")
-        {
-            Destroy(this.gameObject);
-        }
-        if (collision.gameObject.tag == "Player")
+        if (collider.gameObject.tag == "Destroyer" || collider.gameObject.tag == "Player")
         {
             Destroy(this.gameObject);
         }

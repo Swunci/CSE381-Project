@@ -67,7 +67,7 @@ public class PlayerRotator : MonoBehaviour
 
     private void Delay()
     {
-        delay = .2f;
+        delay = .15f;
         pressed = true;
     }
 }
