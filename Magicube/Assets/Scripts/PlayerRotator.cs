@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerRotator : MonoBehaviour
 {
     private float delay;
     private bool pressed = false;
+
 
     void Update()
     {
@@ -75,5 +77,6 @@ public class PlayerRotator : MonoBehaviour
         delay = .15f;
         pressed = true;
     }
+
 }
 

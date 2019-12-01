@@ -6,7 +6,7 @@ public class ZWallController : MonoBehaviour
     //public GameObject target;
     public Rigidbody rb;
     private Vector3 direction = new Vector3 (0, 0, -1);
-    
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -21,6 +21,12 @@ public class ZWallController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Destroyer")
         {
+            ScoreScript.scoreValue += 10;
+            Destroy(this.gameObject);
+        }
+        else if (collider.gameObject.tag == "Player")
+        {
+            LivesScript.lifeValue -= 1;
             Destroy(this.gameObject);
         }
     }
