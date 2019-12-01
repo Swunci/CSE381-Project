@@ -1,24 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ZWallController : MonoBehaviour
 {
     public float speed;
-    public GameObject target;
-    private Vector3 direction;
+    //public GameObject target;
+    public Rigidbody rb;
+    private Vector3 direction = new Vector3 (0, 0, -1);
+    
     private void Start()
     {
-        direction = Vector3.Normalize(target.transform.position - transform.position);
+        rb = GetComponent<Rigidbody>();
+        //direction = Vector3.Normalize(target.transform.position - transform.position);
     }
-    void Update()
+    void FixedUpdate()
     {
-        transform.Translate(direction * speed * Time.deltaTime, Space.World);
+        rb.AddForce(direction * speed);
     }
 
-    private void OnTriggerEnter(Collider collider)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collider.gameObject.tag == "Destroyer" || collider.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Destroyer")
         {
             Destroy(this.gameObject);
         }

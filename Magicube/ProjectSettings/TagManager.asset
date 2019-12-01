@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Wall
   - Destroyer
+  - Damaged
+  - Fire
+  - Dead Player
   layers:
   - Default
   - TransparentFX
@@ -16,11 +19,11 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Destroyer
+  - Player
+  - Cleanup
+  - DeadPlayer
+  - Space
   - 
   - 
   - 

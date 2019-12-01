@@ -8,22 +8,28 @@ public class Spawner : MonoBehaviour
     public bool stopSpawning = false;
     public float spawnTime;
     public float spawnDelay;
-    public Vector3 axis;
+    private int randomFace;
+    private int randomRotation;
+  
 
     void Start()
     {
         InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
     }
     
+    void Update()
+    {
+        randomFace = Random.Range(0, spawnees.Length);
+        randomRotation = Random.Range(0, 4);
+    }
     public void SpawnObject()
     {
-        int randomNumber = Random.Range(0, 10000) % 3;
-        int randomNumber2 = Random.Range(0, 10000) % 4;
-        Debug.Log(randomNumber);
-        Debug.Log(randomNumber2);
-        //spawnees[randomNumber].transform.Rotate(0, 0, randomNumber2 * 90f, Space.Self);
-        spawnees[randomNumber].transform.Rotate(axis, 90f, Space.World);
-        Instantiate(spawnees[randomNumber], transform.position, transform.rotation).transform.Rotate(axis, 90f);
+        Debug.Log("Random Face: " + randomFace);
+        Debug.Log("Rotation Number: " + randomRotation * 90f);
+        GameObject face = spawnees[randomFace];
+        face.transform.Rotate(0, 0, randomRotation * 90f, Space.World);
+  
+        Instantiate(face, transform.position, face.transform.rotation);
  
         if (stopSpawning)
         {
