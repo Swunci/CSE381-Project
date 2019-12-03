@@ -54,7 +54,7 @@ public class PlayerRotator : MonoBehaviour
              }
             if (Input.GetKey(KeyCode.Escape))
             {
-                SceneManager.LoadScene("Main Menu");
+                SceneManager.LoadScene("Trapped");
             }
         }
     }

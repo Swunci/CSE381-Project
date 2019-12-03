@@ -31,16 +31,16 @@ public class CubeController : MonoBehaviour
             return;
 
         // Rotate around forward point when pressing the up button
-        if (Input.GetKey("up"))
+        if (Input.GetKey(KeyCode.W))
             StartCoroutine(Roll(forwardRotationPoint));
         // Rotate around back point when pressing the down button
-        else if (Input.GetKey("down"))
+        else if (Input.GetKey(KeyCode.S))
             StartCoroutine(Roll(backRotationPoint));
         // Rotate around left point when pressing the left button
-        else if (Input.GetKey("left"))
+        else if (Input.GetKey(KeyCode.A))
             StartCoroutine(Roll(leftRotationPoint));
         // Rotate around right point when pressing the right button
-        else if (Input.GetKey("right"))
+        else if (Input.GetKey(KeyCode.D))
             StartCoroutine(Roll(rightRotationPoint));
     }
 

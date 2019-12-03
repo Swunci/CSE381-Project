@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PortalController : MonoBehaviour
@@ -45,6 +46,7 @@ public class PortalController : MonoBehaviour
             Destroy(other.gameObject);
             input_script.enabled = false;
             StartCoroutine(Fading());
+            SceneManager.LoadScene("Trapped");
             
         }
     }
