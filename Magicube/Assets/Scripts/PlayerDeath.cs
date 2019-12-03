@@ -6,7 +6,9 @@ public class PlayerDeath : MonoBehaviour
 {
     public GameObject deadPlayer;
     public GameObject player;
+#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
     public GameObject camera;
+#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
     private PlayerController player_script;
     private CameraController camera_script;
     private GameObject clone;
@@ -21,6 +23,7 @@ public class PlayerDeath : MonoBehaviour
             camera_script.target = clone.transform;
             Destroy(this.gameObject.transform.root.gameObject);
             player_script.setHit(1);
+
         }
     }
 }

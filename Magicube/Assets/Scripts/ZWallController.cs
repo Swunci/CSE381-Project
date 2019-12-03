@@ -21,12 +21,7 @@ public class ZWallController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Destroyer")
         {
-            ScoreScript.scoreValue += 10;
-            Destroy(this.gameObject);
-        }
-        else if (collider.gameObject.tag == "Player")
-        {
-            LivesScript.lifeValue -= 1;
+            //ScoreScript.scoreValue += 10;
             Destroy(this.gameObject);
         }
     }

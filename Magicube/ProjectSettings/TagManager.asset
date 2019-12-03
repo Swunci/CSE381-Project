@@ -9,6 +9,7 @@ TagManager:
   - Damaged
   - Fire
   - Dead Player
+  - Portal
   layers:
   - Default
   - TransparentFX
@@ -24,8 +25,8 @@ TagManager:
   - Cleanup
   - DeadPlayer
   - Space
-  - 
-  - 
+  - UI Camera
+  - Portal
   - 
   - 
   - 

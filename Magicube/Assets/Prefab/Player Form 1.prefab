@@ -62,6 +62,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deadPlayer: {fileID: 3601470365485865410, guid: d26cb43ccd6b9484b878d9bdebfa37de,
     type: 3}
+  player: {fileID: 383066546756920164}
+  camera: {fileID: 0}
 --- !u!1 &383066546962514536
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,7 +78,7 @@ GameObject:
   - component: {fileID: 383066546962514538}
   m_Layer: 10
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,7 +169,7 @@ GameObject:
   - component: {fileID: 383066547157551985}
   m_Layer: 10
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +260,7 @@ GameObject:
   - component: {fileID: 383066547328108971}
   m_Layer: 10
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -349,7 +351,7 @@ GameObject:
   - component: {fileID: 383066547680109670}
   m_Layer: 10
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
