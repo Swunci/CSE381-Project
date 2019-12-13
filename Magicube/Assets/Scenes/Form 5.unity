@@ -179,7 +179,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139659359}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5e89902126a45c4b9904a1fe428581a, type: 3}
   m_Name: 
@@ -341,6 +341,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraOrbit: {fileID: 778793249}
   target: {fileID: 117780754}
+  forms: []
+  deathForms: []
+  isLastLevel: 0
 --- !u!81 &232212210
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1504,7 +1507,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aaa066cfbe3c0514fabd2314cc0ca371, type: 2}
+  - {fileID: 2100000, guid: 38cc16e6a8e2c7941af4095880a30c73, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -8,11 +8,6 @@ public class PlayerController : MonoBehaviour
     private int hit = 0;
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("Trapped");
-        }
-
         // Player rotation
 
         // Rotate clockwise on x-axis of the world

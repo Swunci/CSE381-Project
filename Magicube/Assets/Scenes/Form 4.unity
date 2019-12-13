@@ -281,6 +281,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraOrbit: {fileID: 1586014607}
   target: {fileID: 1594334016}
+  forms: []
+  deathForms: []
+  isLastLevel: 0
 --- !u!81 &129062939
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1081,7 +1084,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aaa066cfbe3c0514fabd2314cc0ca371, type: 2}
+  - {fileID: 2100000, guid: 69a011d1940bc1248b1348abd6436a86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1749,7 +1752,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743893655}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5e89902126a45c4b9904a1fe428581a, type: 3}
   m_Name: 

@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Form 5.unity
     guid: e900c953d602ba040aed8f9184c57576
+  - enabled: 1
+    path: Assets/Scenes/Last level.unity
+    guid: 9d33c1b14d176b946bb04078f3429893
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 05248faedcf341546b98a8be5050707c
   m_configObjects: {}

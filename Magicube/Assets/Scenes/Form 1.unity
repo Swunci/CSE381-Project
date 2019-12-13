@@ -944,7 +944,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313450165}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5e89902126a45c4b9904a1fe428581a, type: 3}
   m_Name: 
@@ -1380,6 +1380,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 383066546658999836}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1352246865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352246864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46d4e8483b4eba14095b08f9764c9825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1457459207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,6 +1778,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraOrbit: {fileID: 1457459212}
   target: {fileID: 976870777}
+  forms: []
+  deathForms: []
+  isLastLevel: 0
 --- !u!81 &1695964421
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2000,17 +2015,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8270116849928830458, guid: 8d0fdac8e4aff9248bac965a5d2e175a,
-        type: 3}
-      propertyPath: deadPlayer
-      value: 
-      objectReference: {fileID: 3601470365485865410, guid: d26cb43ccd6b9484b878d9bdebfa37de,
-        type: 3}
-    - target: {fileID: 8270116849928830458, guid: 8d0fdac8e4aff9248bac965a5d2e175a,
-        type: 3}
-      propertyPath: camera
-      value: 
-      objectReference: {fileID: 1695964418}
     - target: {fileID: 383066546756920166, guid: 8d0fdac8e4aff9248bac965a5d2e175a,
         type: 3}
       propertyPath: m_Enabled
@@ -2032,6 +2036,17 @@ PrefabInstance:
       propertyPath: zoomCamera
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8270116849928830458, guid: 8d0fdac8e4aff9248bac965a5d2e175a,
+        type: 3}
+      propertyPath: deadPlayer
+      value: 
+      objectReference: {fileID: 3601470365485865410, guid: d26cb43ccd6b9484b878d9bdebfa37de,
+        type: 3}
+    - target: {fileID: 8270116849928830458, guid: 8d0fdac8e4aff9248bac965a5d2e175a,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1695964418}
     - target: {fileID: 383066546962514538, guid: 8d0fdac8e4aff9248bac965a5d2e175a,
         type: 3}
       propertyPath: m_IsTrigger

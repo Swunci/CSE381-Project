@@ -17,13 +17,20 @@ public class PlayerDeath : MonoBehaviour
     {
         player_script = player.GetComponent<PlayerController>();
         camera_script = camera.GetComponent<CameraController>();
-        if (player_script.getHit() == 0)
-        {
+        //if (player_script.getHit() == 0)
+        //{
             clone = Instantiate(deadPlayer, player.transform.position, player.transform.rotation);
             camera_script.target = clone.transform;
             Destroy(this.gameObject.transform.root.gameObject);
-            player_script.setHit(1);
+            //player_script.setHit(1);
 
-        }
+        //}
+    }
+
+    public void setValues(GameObject deadPlayer, GameObject player, GameObject camera)
+    {
+        this.deadPlayer = deadPlayer;
+        this.player = player;
+        this.camera = camera;
     }
 }

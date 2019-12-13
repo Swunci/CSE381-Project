@@ -46,7 +46,7 @@ public class PortalController : MonoBehaviour
             Destroy(other.gameObject);
             input_script.enabled = false;
             StartCoroutine(Fading());
-            SceneManager.LoadScene("Trapped");
+            SceneManager.LoadScene("Victory");
             
         }
     }

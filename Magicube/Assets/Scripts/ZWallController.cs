@@ -15,6 +15,7 @@ public class ZWallController : MonoBehaviour
     void FixedUpdate()
     {
         rb.AddForce(direction * speed);
+ 
     }
 
     private void OnCollisionEnter(Collision collision)

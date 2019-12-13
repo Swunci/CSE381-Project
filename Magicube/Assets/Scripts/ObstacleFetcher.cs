@@ -21,6 +21,7 @@ public class ObstacleFetcher : MonoBehaviour
         {
             if (index != 0 && index != spawner_script.spawnNumber)
             {
+
                 currentFace.transform.Rotate(0, 0, -spawner_script.getRotationNumbers()[index - 1] * 90f);
             }
             if (index == spawner_script.spawnNumber)

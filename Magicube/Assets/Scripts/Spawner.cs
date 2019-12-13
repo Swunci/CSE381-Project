@@ -25,6 +25,7 @@ public class Spawner : MonoBehaviour
     {
         randomFace = Random.Range(0, spawnees.Length);
         randomRotation = Random.Range(0, 4);
+
     }
     public void SpawnObject()
     {

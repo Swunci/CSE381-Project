@@ -108,6 +108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &3036863947115725411
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -244,6 +246,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &1880590495845277634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -380,6 +384,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &6051886857816889808
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -516,6 +522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &453682538533902339
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -652,6 +660,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &633124190820743186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -788,6 +798,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &1444012352765952271
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -939,6 +951,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 7742202617074537696}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &1641083989461242911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &3163449895734295576
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1183,6 +1199,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &8795861103132690526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1319,6 +1337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &1942918977867985869
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1495,6 +1515,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &8254809850888580023
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1643,6 +1665,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &6882971102079297306
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1794,6 +1818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 7826824312357777044}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &4906615026277281704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1902,6 +1928,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &787154221283962851
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2038,6 +2066,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &6375596282448752037
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2174,6 +2204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &7569665455798390224
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2325,6 +2357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 1525801518761508122}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &5921371633661525270
 GameObject:
   m_ObjectHideFlags: 0
@@ -2433,6 +2467,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &3703007062201179868
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2569,6 +2605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &4718199530672375788
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2720,6 +2758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 1421565421665467000}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &5973170104001451634
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,6 +2868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &8856114795158779244
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2964,6 +3006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &8152703585386848268
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3115,6 +3159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 7023505766047084005}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &6870941073250872875
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,6 +3284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 4143451434837347919}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &7111050449375792015
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,6 +3394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &8703136868705516728
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3497,6 +3547,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 5320916514445274537}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &7361367527623590303
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,6 +3657,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &2310079853597582110
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3741,6 +3795,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &1794508653477461367
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3892,6 +3948,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 3974884594302586254}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!1 &8313352300205057764
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,6 +4058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &6951809655544983520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4193,6 +4253,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &8123376012515469594
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4329,6 +4391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &2573605289395175861
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4465,6 +4529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &626078116008755833
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4601,6 +4667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 8254809850888580023}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}
 --- !u!54 &9151553925554009584
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4752,3 +4820,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   rb: {fileID: 5720184557489978298}
+  spawner: {fileID: 602289562897143292, guid: b6f6567868392924c9e577bd2cdb4e6b, type: 3}
+  spawner_script: {fileID: 0}

@@ -31,7 +31,7 @@ public class Teleporter : MonoBehaviour
         }
         else if (portalNumber == 6)
         {
-            //SceneManager.LoadScene("Form 6");
+            SceneManager.LoadScene("Last level");
         }
     }
 }

@@ -9,8 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 383066546756920165}
-  - component: {fileID: 383066546756920166}
-  - component: {fileID: 8270116849928830458}
   m_Layer: 10
   m_Name: Player Form 1
   m_TagString: Player
@@ -36,34 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &383066546756920166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383066546756920164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46d4e8483b4eba14095b08f9764c9825, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8270116849928830458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383066546756920164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e88ebc97b8b3ee54d8538ff68c40486b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deadPlayer: {fileID: 3601470365485865410, guid: d26cb43ccd6b9484b878d9bdebfa37de,
-    type: 3}
-  player: {fileID: 383066546756920164}
-  camera: {fileID: 0}
 --- !u!1 &383066546962514536
 GameObject:
   m_ObjectHideFlags: 0
