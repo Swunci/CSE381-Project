@@ -16,7 +16,7 @@ Game mechanics
 The game starts out with the player (a cube) in an invisible box with portals on each face. Each portal teleports the player into a space 
 tunnel. After being teleported, the player will change into a different shape and the player's movements will be restricted and the player
 can only rotate themselves using Q (x-axis), W (y-axis), E (z-axis). As the player is traveling through the tunnel, there will be space 
-meteoroids flying at the player and the player must rotate themselves to dodge the obstacles. THe player will transform into a different 
+meteoroids flying at the player and the player must rotate themselves to dodge the obstacles. The player will transform into a different 
 shape depending on which portal they take. The portal on the bottom is the only level that the player must past to win. In the last tunnel,
 the player will be able to swap between all the other shapes using spacebar.
 
