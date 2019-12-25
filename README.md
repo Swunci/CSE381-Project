@@ -5,9 +5,13 @@ CSE381 - Advancded Game Programming
 This was an original game created for this course using the Unity.
 
 Game mechanics
+
 -The player is made up of a bunch of cubes arranged in a 3x3x3 box which means the player has 3 unique faces.
+
 -Each obstacle that is flying at the player has a opening that corresponds to one of the player's faces.
+
 -The player has to rotate the shape such that the face on the z-axis (blue side) matches the opening.
+
 
 The game starts out with the player (a cube) in an invisible box with portals on each face. Each portal teleports the player into a space 
 tunnel. After being teleported, the player will change into a different shape and the player's movements will be restricted and the player
